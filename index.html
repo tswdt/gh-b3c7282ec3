@@ -1,0 +1,176 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
+<title>GitHub 小白入门教程：找工具、提效率、挖掘赚钱机会</title>
+<style>
+body{margin:0;font:16px/1.75 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:#222;background:#f6f7f9}
+main{max-width:760px;margin:auto;background:#fff;padding:20px 18px 60px}
+h1{font-size:24px;line-height:1.4;margin:.3em 0}h2{font-size:20px;border-left:5px solid #2da44e;padding-left:10px;margin-top:2em}h3{font-size:17px;margin-top:1.4em}
+.tip{background:#eef9f1;border:1px solid #b7e4c4;border-radius:8px;padding:10px 14px;margin:12px 0}
+.warn{background:#fff6e5;border:1px solid #f5d08a;border-radius:8px;padding:10px 14px;margin:12px 0}
+code{background:#f0f2f4;padding:1px 5px;border-radius:4px;font-size:14px;word-break:break-all}
+table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid #ddd;padding:6px 8px;vertical-align:top}th{background:#f3f4f6}
+a{color:#0969da;word-break:break-all}svg{width:100%;height:auto;display:block;margin:12px 0}
+nav{background:#f6f8fa;border-radius:8px;padding:8px 16px}nav li{margin:2px 0}.muted{color:#888;font-size:13px}
+</style></head><body><main>
+<h1>GitHub 小白入门教程<br>找工具 · 提效率 · 挖掘赚钱机会</h1>
+<p class="muted">原创整理 · 2026 年 11 月版 · 建议收藏本页，随时回来看</p>
+<p>GitHub 是全世界程序员放代码的地方，但它其实也是一个<b>超大的免费软件仓库</b>和<b>创意灵感库</b>。不会写代码也完全能用：找免费好用的软件、找学习资料、看别人在做什么产品。这份教程从零讲起，看完你就能自己逛 GitHub。</p>
+<nav><b>目录</b><ol>
+<li><a href="#s1">GitHub 是什么，能帮我干嘛</a></li><li><a href="#s2">注册账号（含国内打开慢怎么办）</a></li>
+<li><a href="#s3">看懂一个项目页面</a></li><li><a href="#s4">搜项目的 6 个技巧</a></li>
+<li><a href="#s5">判断项目靠不靠谱：Star / Fork / Issue / 更新时间</a></li><li><a href="#s6">下载软件：Release 页面怎么看</a></li>
+<li><a href="#s7">常用提效工具清单（20 个真实项目）</a></li><li><a href="#s8">怎么从 GitHub 找赚钱机会（合规思路）</a></li>
+<li><a href="#s9">常见问题</a></li></ol></nav>
+
+<h2 id="s1">1. GitHub 是什么，能帮我干嘛</h2>
+<p>把它想成「代码界的云仓库 + 论坛 + 应用商店」。每个项目叫一个<b>仓库（Repository，简称 repo）</b>，里面有源代码、说明书（README）、讨论区（Issues）和下载区（Releases）。</p>
+<table><tr><th>你想做的事</th><th>GitHub 能给你的</th></tr>
+<tr><td>找免费软件</td><td>大量开源软件，免费、无广告，例如截图、录屏、文件互传、PDF 工具</td></tr>
+<tr><td>学东西</td><td>中文学习路线、面试题、教程合集（很多 Star 上万）</td></tr>
+<tr><td>提高效率</td><td>各种小工具、浏览器插件、自动化脚本</td></tr>
+<tr><td>找商业灵感</td><td>看大家在做什么、缺什么，发现需求</td></tr></table>
+
+<h2 id="s2">2. 注册账号（含国内打开慢怎么办）</h2>
+<p><b>只是看和下载，其实不用注册。</b>但注册后可以收藏（Star）项目、关注作者、提问题，建议注册一个。</p>
+<svg viewBox="0 0 720 150" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="15">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0L10,5L0,10z" fill="#2da44e"/></marker></defs>
+<g fill="#eef9f1" stroke="#2da44e" stroke-width="2">
+<rect x="5" y="40" width="125" height="64" rx="10"/><rect x="152" y="40" width="125" height="64" rx="10"/><rect x="299" y="40" width="125" height="64" rx="10"/><rect x="446" y="40" width="125" height="64" rx="10"/><rect x="593" y="40" width="122" height="64" rx="10"/></g>
+<g text-anchor="middle" fill="#1a4d2e"><text x="67" y="68">打开</text><text x="67" y="90">github.com</text><text x="214" y="68">点 Sign up</text><text x="214" y="90">填邮箱</text><text x="361" y="68">设密码</text><text x="361" y="90">和用户名</text><text x="508" y="68">邮箱收</text><text x="508" y="90">验证码</text><text x="654" y="68">完成</text><text x="654" y="90">开始逛</text></g>
+<g stroke="#2da44e" stroke-width="2" marker-end="url(#a)"><line x1="130" y1="72" x2="150" y2="72"/><line x1="277" y1="72" x2="297" y2="72"/><line x1="424" y1="72" x2="444" y2="72"/><line x1="571" y1="72" x2="591" y2="72"/></g>
+<text x="360" y="135" text-anchor="middle" fill="#666" font-size="13">注册流程示意（约 3 分钟）</text></svg>
+<h3>详细步骤</h3><ol>
+<li>浏览器打开 <code>https://github.com</code>，点右上角 <b>Sign up</b>。</li>
+<li>输入邮箱（QQ 邮箱、163 邮箱都可以），设置密码（至少 15 位，或 8 位且含数字和小写字母）。</li>
+<li>用户名只能用英文、数字和短横线，以后会出现在你的主页网址里，起个好记的。</li>
+<li>完成一个小的人机验证（拼图或选图），然后去邮箱里找 GitHub 发来的 8 位验证码填进去。</li>
+<li>它会问你几个使用偏好的问题，可以直接跳过。</li>
+<li><b>强烈建议</b>：进 Settings → Password and authentication，开启两步验证（Authenticator 应用，如手机上的验证器 App），避免账号被盗。</li></ol>
+<div class="tip">收不到验证码？先看垃圾邮件箱；QQ 邮箱偶尔延迟几分钟，可以点「Resend」再发一次。</div>
+<h3>国内打开慢、图片加载不出来怎么办</h3><ul>
+<li><b>换个时间段</b>：GitHub 在国内属于「能打开但时快时慢」，早上和深夜一般更快。</li>
+<li><b>换网络</b>：Wi‑Fi 慢就切手机流量试试，不同运营商差别很大。</li>
+<li><b>用加速工具</b>：开源工具 <a href="https://github.com/docmirror/dev-sidecar">dev-sidecar</a>、<a href="https://github.com/BeyondDimension/SteamTools">Watt Toolkit</a> 都带 GitHub 访问加速功能（第 7 节清单里有）。</li>
+<li><b>下载大文件慢</b>：在 Release 页面复制下载链接，用下载工具（如 <a href="https://github.com/agalwood/Motrix">Motrix</a>）下载，支持断点续传。</li>
+<li><b>浏览器翻译</b>：页面全是英文时，用 Edge / Chrome 右键「翻译成中文」，基本能看懂。</li></ul>
+
+<h2 id="s3">3. 看懂一个项目页面</h2>
+<svg viewBox="0 0 720 380" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="14">
+<rect x="10" y="10" width="700" height="360" rx="12" fill="#fff" stroke="#d0d7de" stroke-width="2"/>
+<text x="30" y="45" font-size="17" fill="#0969da">作者名 / 项目名</text><text x="230" y="45" fill="#888" font-size="12">Public</text>
+<g font-size="13"><rect x="430" y="27" width="80" height="26" rx="6" fill="#f6f8fa" stroke="#d0d7de"/><text x="442" y="45">⑤ Watch</text>
+<rect x="518" y="27" width="80" height="26" rx="6" fill="#f6f8fa" stroke="#d0d7de"/><text x="530" y="45">③ Fork</text>
+<rect x="606" y="27" width="90" height="26" rx="6" fill="#fff4d6" stroke="#e3b341"/><text x="616" y="45">② ★ Star</text></g>
+<g font-size="13" fill="#333"><text x="30" y="85">Code</text><text x="90" y="85">④ Issues</text><text x="170" y="85">Pull requests</text><text x="290" y="85">Actions</text></g>
+<line x1="20" y1="95" x2="700" y2="95" stroke="#d0d7de"/>
+<rect x="30" y="110" width="440" height="150" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<g fill="#555" font-size="13"><text x="45" y="135">📁 src</text><text x="45" y="160">📁 docs</text><text x="45" y="185">📄 README.md</text><text x="45" y="210">📄 LICENSE</text><text x="300" y="135" fill="#888">⑥ 3 days ago</text></g>
+<text x="45" y="245" fill="#c00" font-size="13">① 文件列表（不写代码可以不看）</text>
+<rect x="490" y="110" width="205" height="150" rx="6" fill="#fff" stroke="#d0d7de"/>
+<g font-size="13" fill="#333"><text x="505" y="135" font-weight="bold">About</text><text x="505" y="160">一句话介绍项目</text><text x="505" y="185">🏷 标签</text><text x="505" y="210">⚖ 开源协议</text><text x="505" y="240" fill="#2da44e" font-weight="bold">⑦ Releases 下载</text></g>
+<rect x="30" y="275" width="665" height="80" rx="6" fill="#eef9f1" stroke="#2da44e"/>
+<text x="45" y="300" font-weight="bold" fill="#1a4d2e">⑧ README 说明书（往下滑就是）</text><text x="45" y="325" fill="#555" font-size="13">介绍、截图、安装方法、使用方法都在这里，最先看这一块</text></svg>
+<table><tr><th>编号</th><th>位置</th><th>意思</th></tr>
+<tr><td>①</td><td>文件列表</td><td>源代码，不会编程可以跳过</td></tr><tr><td>②</td><td>Star</td><td>收藏/点赞，数量代表受欢迎程度</td></tr>
+<tr><td>③</td><td>Fork</td><td>复制一份到自己账号，用于二次开发</td></tr><tr><td>④</td><td>Issues</td><td>问题反馈区，用户报 bug、提建议</td></tr>
+<tr><td>⑤</td><td>Watch</td><td>订阅更新通知</td></tr><tr><td>⑥</td><td>最近提交时间</td><td>项目还活不活跃</td></tr>
+<tr><td>⑦</td><td>Releases</td><td>打包好的安装包，<b>普通人下载软件就点这里</b></td></tr><tr><td>⑧</td><td>README</td><td>说明书，最重要</td></tr></table>
+
+<h2 id="s4">4. 搜项目的 6 个技巧</h2>
+<ol>
+<li><b>用英文关键词</b>：搜「screenshot」比搜「截图」结果多十倍。不知道英文就先用翻译查一下。中文关键词也能搜，适合找中文教程（如「面试」「学习路线」）。</li>
+<li><b>按 Star 排序</b>：搜索结果页右上角 Sort 选 <b>Most stars</b>，好项目自然靠前。</li>
+<li><b>用搜索语法筛选</b>（直接输到搜索框）：
+<table><tr><th>写法</th><th>作用</th></tr>
+<tr><td><code>pdf tool stars:&gt;1000</code></td><td>Star 超过 1000 的 PDF 工具</td></tr>
+<tr><td><code>ocr language:Python</code></td><td>用 Python 写的文字识别项目</td></tr>
+<tr><td><code>note app pushed:&gt;2026-06-01</code></td><td>半年内还在更新的笔记软件</td></tr>
+<tr><td><code>awesome excel</code></td><td>Excel 相关资源合集（awesome = 精选清单）</td></tr>
+<tr><td><code>中文 学习路线 in:readme</code></td><td>说明书里含这些字的项目</td></tr>
+<tr><td><code>topic:screenshot</code></td><td>打了「截图」标签的项目</td></tr></table></li>
+<li><b>找「awesome 清单」</b>：几乎每个领域都有人整理「awesome-xxx」精选清单，一个清单顶你搜一天。</li>
+<li><b>逛 Trending 热榜</b>：<code>github.com/trending</code> 看今天/本周涨 Star 最快的项目，可选语言和时间范围。</li>
+<li><b>看中文推荐周刊</b>：<a href="https://github.com/521xueweihan/HelloGitHub">HelloGitHub</a>（每月推荐入门友好的开源项目）、<a href="https://github.com/ruanyf/weekly">科技爱好者周刊</a>，每期都有好项目。</li></ol>
+
+<h2 id="s5">5. 判断项目靠不靠谱</h2>
+<svg viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="14">
+<g text-anchor="middle"><rect x="250" y="10" width="220" height="44" rx="22" fill="#2da44e"/><text x="360" y="38" fill="#fff" font-size="15">看到一个项目</text></g>
+<g fill="#fff" stroke="#2da44e" stroke-width="2"><rect x="20" y="80" width="160" height="70" rx="8"/><rect x="200" y="80" width="160" height="70" rx="8"/><rect x="380" y="80" width="160" height="70" rx="8"/><rect x="560" y="80" width="140" height="70" rx="8"/></g>
+<g text-anchor="middle" fill="#222"><text x="100" y="108" font-weight="bold">★ Star</text><text x="100" y="132" font-size="12">&gt;1000 基本有人用</text>
+<text x="280" y="108" font-weight="bold">最近更新</text><text x="280" y="132" font-size="12">半年内有提交 = 活跃</text>
+<text x="460" y="108" font-weight="bold">Issues</text><text x="460" y="132" font-size="12">作者回不回复问题</text>
+<text x="630" y="108" font-weight="bold">Release</text><text x="630" y="132" font-size="12">有安装包，版本连续</text></g>
+<g stroke="#999" stroke-width="1.5"><line x1="360" y1="54" x2="100" y2="80"/><line x1="360" y1="54" x2="280" y2="80"/><line x1="360" y1="54" x2="460" y2="80"/><line x1="360" y1="54" x2="630" y2="80"/></g>
+<rect x="60" y="180" width="280" height="100" rx="10" fill="#eef9f1" stroke="#2da44e"/><rect x="380" y="180" width="280" height="100" rx="10" fill="#fdecec" stroke="#d1242f"/>
+<g fill="#1a4d2e"><text x="80" y="208" font-weight="bold">✅ 4 项大多满足</text><text x="80" y="235" font-size="13">可以放心试用</text><text x="80" y="258" font-size="13">优先下载官方 Release</text></g>
+<g fill="#8a1c1c"><text x="400" y="208" font-weight="bold">⚠ 多项不满足</text><text x="400" y="235" font-size="13">两三年没更新、问题没人回</text><text x="400" y="258" font-size="13">可能已停更，找替代品</text></g></svg>
+<ul>
+<li><b>Star（星标）</b>：越多越受欢迎。几十个 Star 不代表不好，但新手优先选上千的。</li>
+<li><b>Fork</b>：被复制的次数，多说明很多人在它基础上改，生命力强。</li>
+<li><b>最近更新时间</b>：文件列表上方显示最后一次提交时间。半年内有更新一般说明作者还在维护。</li>
+<li><b>Issues</b>：点进去看 Open（未解决）和 Closed（已解决）比例，看作者回复是否及时。也是找使用问题答案的最好地方——先搜一下，你遇到的问题很可能别人问过。</li>
+<li><b>开源协议（License）</b>：右侧 About 里能看到，比如 MIT、Apache‑2.0、GPL。<b>想商用一定要先看协议</b>，第 8 节会讲。</li></ul>
+<div class="warn"><b>防坑提醒</b>：只从项目官方仓库的 Releases 下载；警惕名字很像、但 Star 很少又让你去别的网站下载的「山寨仓库」；杀毒软件报毒先去 Issues 搜搜是否误报。</div>
+
+<h2 id="s6">6. 下载软件：Release 页面怎么看</h2>
+<p>在项目首页右侧点 <b>Releases</b>（或网址后面加 <code>/releases</code>），找带绿色 <b>Latest</b> 标记的最新版本，展开底部 <b>Assets</b>：</p>
+<table><tr><th>文件名里有…</th><th>适合</th></tr>
+<tr><td><code>.exe</code> / <code>.msi</code> / <code>win</code> / <code>windows</code> / <code>x64</code></td><td>Windows 电脑（一般选 x64）</td></tr>
+<tr><td><code>.dmg</code> / <code>mac</code> / <code>darwin</code>；<code>arm64</code>=苹果 M 系列芯片，<code>x64</code>/<code>intel</code>=老款 Mac</td><td>苹果电脑</td></tr>
+<tr><td><code>.apk</code> / <code>android</code></td><td>安卓手机</td></tr>
+<tr><td><code>portable</code> / <code>.zip</code></td><td>免安装版，解压即用</td></tr>
+<tr><td><code>Source code</code></td><td>源代码，普通用户<b>不要下这个</b></td></tr>
+<tr><td><code>Pre-release</code> 标记</td><td>测试版，可能不稳定，新手选正式版</td></tr></table>
+<div class="tip">Mac 打开时提示「无法验证开发者」：到「系统设置 → 隐私与安全性」点「仍要打开」。Windows 提示「已保护你的电脑」：点「更多信息 → 仍要运行」（仅限你确认来自官方仓库的软件）。</div>
+
+<h2 id="s7">7. 常用提效工具清单（20 个真实项目）</h2>
+<p class="muted">Star 数为 2026 年 11 月初查询，均为长期维护的开源项目；点击链接直达官方仓库。</p>
+<table><tr><th>项目</th><th>用途</th><th>平台</th></tr>
+<tr><td><a href="https://github.com/microsoft/PowerToys">PowerToys</a></td><td>微软官方 Windows 增强工具箱：批量改名、取色、窗口布局、文字识别等</td><td>Win</td></tr>
+<tr><td><a href="https://github.com/localsend/localsend">LocalSend</a></td><td>同一 Wi‑Fi 下手机电脑互传文件，不走流量不限速</td><td>全平台</td></tr>
+<tr><td><a href="https://github.com/rustdesk/rustdesk">RustDesk</a></td><td>远程桌面，帮家人远程弄电脑</td><td>全平台</td></tr>
+<tr><td><a href="https://github.com/ventoy/Ventoy">Ventoy</a></td><td>做系统启动 U 盘，把镜像拷进去就能用</td><td>Win/Linux</td></tr>
+<tr><td><a href="https://github.com/hiroi-sora/Umi-OCR">Umi-OCR</a></td><td>离线截图识字、批量图片转文字，中文效果好</td><td>Win</td></tr>
+<tr><td><a href="https://github.com/agalwood/Motrix">Motrix</a></td><td>全能下载工具，断点续传</td><td>全平台</td></tr>
+<tr><td><a href="https://github.com/QL-Win/QuickLook">QuickLook</a></td><td>选中文件按空格直接预览（像 Mac 一样）</td><td>Win</td></tr>
+<tr><td><a href="https://github.com/ShareX/ShareX">ShareX</a></td><td>截图、长截图、录屏、录 GIF</td><td>Win</td></tr>
+<tr><td><a href="https://github.com/Stirling-Tools/Stirling-PDF">Stirling-PDF</a></td><td>PDF 合并、拆分、压缩、转换（自己部署）</td><td>网页/服务器</td></tr>
+<tr><td><a href="https://github.com/jgraph/drawio-desktop">draw.io 桌面版</a></td><td>画流程图、架构图、思维导图</td><td>全平台</td></tr>
+<tr><td><a href="https://github.com/excalidraw/excalidraw">Excalidraw</a></td><td>手绘风白板，讲方案很直观</td><td>网页</td></tr>
+<tr><td><a href="https://github.com/upscayl/upscayl">Upscayl</a></td><td>图片放大变清晰</td><td>全平台</td></tr>
+<tr><td><a href="https://github.com/logseq/logseq">Logseq</a></td><td>本地笔记、双向链接知识库</td><td>全平台</td></tr>
+<tr><td><a href="https://github.com/docmirror/dev-sidecar">dev-sidecar</a></td><td>GitHub 等开发者网站访问加速</td><td>全平台</td></tr>
+<tr><td><a href="https://github.com/BeyondDimension/SteamTools">Watt Toolkit</a></td><td>GitHub/Steam 访问加速等</td><td>全平台</td></tr>
+<tr><td><a href="https://github.com/521xueweihan/HelloGitHub">HelloGitHub</a></td><td>中文开源项目推荐月刊</td><td>阅读</td></tr>
+<tr><td><a href="https://github.com/ruanyf/weekly">科技爱好者周刊</a></td><td>阮一峰的科技周刊，每周有工具推荐</td><td>阅读</td></tr>
+<tr><td><a href="https://github.com/sindresorhus/awesome">awesome</a></td><td>所有「awesome 清单」的总目录</td><td>阅读</td></tr>
+<tr><td><a href="https://github.com/jaywcjlove/awesome-mac">awesome-mac</a></td><td>Mac 好用软件大全（有中文版）</td><td>阅读</td></tr>
+<tr><td>Trending 热榜<br><code>github.com/trending</code></td><td>每天看看最火的新项目</td><td>阅读</td></tr></table>
+
+<h2 id="s8">8. 怎么从 GitHub 找赚钱机会（合规思路）</h2>
+<div class="warn">先说清楚：GitHub 不会直接给你钱，下面是<b>找方向、省成本</b>的思路，需要你自己投入时间做。不承诺收益，也不要碰违规用法。</div>
+<svg viewBox="0 0 720 170" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="14">
+<defs><marker id="b" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0L10,5L0,10z" fill="#0969da"/></marker></defs>
+<g fill="#eef4ff" stroke="#0969da" stroke-width="2"><rect x="10" y="30" width="155" height="80" rx="10"/><rect x="190" y="30" width="155" height="80" rx="10"/><rect x="370" y="30" width="155" height="80" rx="10"/><rect x="550" y="30" width="160" height="80" rx="10"/></g>
+<g text-anchor="middle" fill="#0a3069"><text x="87" y="62" font-weight="bold">发现需求</text><text x="87" y="86" font-size="12">Trending / Issues</text>
+<text x="267" y="62" font-weight="bold">看协议</text><text x="267" y="86" font-size="12">能不能商用</text>
+<text x="447" y="62" font-weight="bold">加上服务</text><text x="447" y="86" font-size="12">安装/教程/定制</text>
+<text x="630" y="62" font-weight="bold">小范围验证</text><text x="630" y="86" font-size="12">有人买再加码</text></g>
+<g stroke="#0969da" stroke-width="2" marker-end="url(#b)"><line x1="165" y1="70" x2="188" y2="70"/><line x1="345" y1="70" x2="368" y2="70"/><line x1="525" y1="70" x2="548" y2="70"/></g>
+<text x="360" y="150" text-anchor="middle" fill="#666" font-size="13">思路：开源工具本身免费，你卖的是「时间、经验和服务」</text></svg>
+<h3>思路 1：从 Issues 里找真实需求</h3><p>热门项目的 Issues 里，大量用户在说「希望能…」「怎么做到…」。高频出现的问题，就是普通人卡住的地方，可以做成<b>教程、视频讲解或代安装/配置服务</b>。</p>
+<h3>思路 2：给开源工具做「中文化服务」</h3><p>很多好工具只有英文文档。整理成中文图文教程、使用技巧合集，在内容平台分享积累关注，是门槛最低的方式。注意要<b>自己写</b>，引用时注明出处。</p>
+<h3>思路 3：部署与技术支持</h3><p>像 Stirling-PDF、RustDesk 这类可以自己部署的项目，小公司常常需要但不会装。会照着文档装好、写一份使用说明，就能提供有价值的服务。</p>
+<h3>思路 4：从 Trending 看趋势</h3><p>连续几周涨星很快的项目代表新需求。早一点学会、早一点写教程，就更容易被人搜到。</p>
+<h3>思路 5：会写代码的进阶路线</h3><ul><li>给项目修 bug、提交改进（Pull Request），积累作品集，对找工作很有帮助；</li><li>做自己的开源小工具，开通 GitHub Sponsors 接受赞助；</li><li>一些项目会为解决特定 Issue 设置悬赏（bounty），按项目规则参与。</li></ul>
+<h3>一定要遵守的规矩</h3><ul>
+<li><b>看 License</b>：MIT / Apache‑2.0 一般允许商用，但要保留原作者版权声明；GPL 类协议修改后再分发需同样开源；没有协议的项目<b>默认不能随便用</b>。</li>
+<li>不要把别人的免费软件改名当成自己的产品卖，不要倒卖别人明确禁止商用的资源。</li>
+<li>不要用来做爬取隐私、绕过付费、破解等违法违规用途。</li></ul>
+
+<h2 id="s9">9. 常见问题</h2>
+<p><b>Q：不会英文能用吗？</b><br>能。浏览器右键翻译整页，README 一般有截图，配合本教程的「页面地图」就够用。</p>
+<p><b>Q：GitHub 收费吗？</b><br>个人看、下载、建仓库都免费。</p>
+<p><b>Q：手机能用吗？</b><br>能，浏览器直接打开 github.com 即可，也有官方 GitHub App。下载电脑软件建议用电脑。</p>
+<p><b>Q：下载的软件安全吗？</b><br>官方仓库、Star 多、更新活跃的项目通常可信；仍建议装杀毒软件，别从来路不明的仓库下载。</p>
+<p class="muted" style="margin-top:3em">本教程为原创整理，仅供个人学习使用。文中软件均为各自作者的开源项目，名称与商标归原作者所有。</p>
+</main></body></html>
